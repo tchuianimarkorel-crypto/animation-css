@@ -1,0 +1,21 @@
+.image-1{
+
+    animation: movCar 6s ease 0s infinite;
+
+}
+
+
+@keyframes movCar {
+    0% {
+        transform: translateX(0);
+    }
+
+
+    50% {
+        transform: translateX(200px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
